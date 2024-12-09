@@ -1,3 +1,5 @@
+const username = localStorage.getItem("username");
+document.getElementById("diplayuser").textContent = `😉 `+username;
 
 function displayTime() {
     const now = new Date();
